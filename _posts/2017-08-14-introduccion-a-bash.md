@@ -310,8 +310,8 @@ simple.
 
 ## Otro tutorial
 
-[Este video](https://www.youtube.com/watch?v=ZvFmTk96bV8&t=313s) 
-[y este video](https://www.youtube.com/watch?v=ZvFmTk96bV8&t=313s)
+[Este video](https://www.youtube.com/watch?v=ZvFmTk96bV8) 
+y [este video](https://www.youtube.com/watch?v=Ms2ftyKemnw)
 en español explican prácticamente lo mismo que expliqué acá. Mirenlos aunque hayan
 leido todo!
 
