@@ -353,7 +353,7 @@ el resultado de copiar-y-pegar de Google. Les recomiendo agregar las palabras
 
 4. `sudo` es un comando que les permite ejecutar comandos que sólo el
    super-usuario (similar al Administrador en Windows) puede ejecutar. `apt-get
-   install -y` es uno de estos comandos. `apt-get install -y` es comando que
+   install -y` es uno de estos comandos. `apt-get install -y` es un comando que
    sirve para instalar programas. Aprendan a instalar programas usando `sudo
    apt-get install -y`. Por ejemplo, prueben hacer: `sudo apt-get install -y
    git`.
