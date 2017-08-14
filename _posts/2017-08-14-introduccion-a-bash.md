@@ -279,7 +279,7 @@ wget --random-wait -r -p -e robots=off -U mozilla http://blog.computationalcompl
 Con este comando podemos hacer tweets cada 1 hora (o cualquier otro intérvalo):
 
 ```
-while true; do curl -u user:pass -d status="Tweeting from the shell" http://twitter.com/statuses/update.xml | at midnight; sleep 3600; done;
+while true; do curl -u user:pass -d status="Tweeting from the shell" http://twitter.com/statuses/update.xml; sleep 3600; done;
 ```
 
 (Tienen que cambiar `user` por su nombre de usuario y `pass` por su contraseña)
