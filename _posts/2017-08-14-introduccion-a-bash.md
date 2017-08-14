@@ -266,7 +266,7 @@ instalados. En estos casos Bash muestra el error correspondiente.
 
 Hasta ahora vimos comandos bastante sencillos, pero lo bueno de Bash es que
 permite expresar operaciones muy complejas. A continuación se muestran algunos
-ejemplos del tipo de cosas que se pueden hacer con bash. Quiero aclarar que no
+ejemplos del tipo de cosas que se pueden hacer con Bash. Quiero aclarar que no
 pretendo que entiendan cómo funcionan estos comandos, simplemente que sepan el
 tipo de cosas que Bash permite hacer.
 
@@ -312,7 +312,7 @@ simple.
 
 [Este video](https://www.youtube.com/watch?v=ZvFmTk96bV8&t=313s) 
 [y este video](https://www.youtube.com/watch?v=ZvFmTk96bV8&t=313s)
-en español explican prácticamente lo mismo que expliqué acá. Veanlo aunque hayan
+en español explican prácticamente lo mismo que expliqué acá. Mirenlos aunque hayan
 leido todo!
 
 
@@ -340,7 +340,6 @@ el resultado de copiar-y-pegar de Google. Les recomiendo agregar las palabras
 "terminal" "linux" y "CLI" a las búsquedas para encontrar buenos resultados.
 
 ## Ejercicios
-Los ejercicios marcados con (\*) son un poco más difíciles.
 
 1. Aprendan a usar los comandos `cp` (copia archivos), `cp -r` (copia
    directorios) `cat` (imprime los contenidos de un archivo en pantalla).
