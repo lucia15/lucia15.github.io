@@ -5,11 +5,11 @@ title: Introducción a Bash y a otras cositas de Linux/GNU
 
 ## ¿Qué es un shell? y ¿Qué es Bash?
 
-Un shell es interfaz de usuario que sirve para acceder a los servicios que el
-sistema operativo brinda. Por servicios me refiero cosas como crear un archivo o
-directorio, eliminar un archivo, guardar información en un archivo, ejecutar un
-programa, leer los contenidos de un DVD, básicamente cualquier cosa que hacemos
-día a día en una computadora.
+Un shell es una interfaz de usuario que sirve para acceder a los servicios que
+el sistema operativo brinda. Por servicios me refiero cosas como crear un
+archivo o directorio, eliminar un archivo, guardar información en un archivo,
+ejecutar un programa, leer los contenidos de un DVD, básicamente cualquier cosa
+que hacemos día a día en una computadora.
 
 En general hay dos tipos de shells:
 
@@ -296,6 +296,23 @@ Con este comando podemos averiguar nuestra ip:
 
 ```
 curl -s http://whatismyip.org/ | grep -oP '(\d{1,3}\.){3}\d+'
+```
+
+Con este comando se puede bajar un video de youtube:
+
+```
+youtube-dl http://www.youtube.com/watch?v=<VIDEOCODE>
+```
+
+Para obtener sólo el audio:
+```
+ffmpeg -i <VIDEOCODE>.flv -acodec libmp3lame <VIDEOCODE>.mp3
+```
+
+Si no está instalado, debemos instalar el programa:
+
+```
+sudo apt-get install youtube-dl
 ```
 
 Para ver más comandos interesantes:
