@@ -301,12 +301,12 @@ curl -s http://whatismyip.org/ | grep -oP '(\d{1,3}\.){3}\d+'
 Con este comando se puede bajar un video de youtube:
 
 ```
-youtube-dl http://www.youtube.com/watch?v=<VIDEOCODE>
+youtube-dl <url>
 ```
 
 Para obtener sólo el audio:
 ```
-ffmpeg -i <VIDEOCODE>.flv -acodec libmp3lame <VIDEOCODE>.mp3
+youtube-dl --extract-audio --audio-format mp3 <url>
 ```
 
 Si no está instalado, debemos instalar el programa:
