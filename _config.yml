@@ -4,18 +4,18 @@
 permalink:           pretty
 
 # Setup
-title:               Trucco's notes
-tagline:             'Las notas de Trucco'
-description:         'Arbitrary Computer Science notes.'
-url:                 https://frantrucco.github.io/
+title:               El blog de Lucy
+tagline:             'El blog de Lu'
+description:         'Un blog'
+url:                 https://lucia15.github.io/
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Francisco Trucco
-  url:               https://twitter.com/frantrucco95
-  email:             franciscoctrucco@gmail.com
+  name:              Lucía
+#  url:               https://twitter.com/lucy
+#  email:             bla@gmail.com
 
 # Custom vars
 version:             1.0.0
